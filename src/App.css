@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px 20px;
+}
+
+.app {
+  width: 100%;
+  max-width: 480px;
+  text-align: center;
+}
+
+h1 {
+  color: #fff;
+  font-size: 2rem;
+  margin-bottom: 24px;
+}
+
+.buscador {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 24px;
+}
+
+.buscador input {
+  flex: 1;
+  padding: 12px 16px;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+  outline: none;
+}
+
+.buscador button {
+  padding: 12px 20px;
+  border-radius: 10px;
+  border: none;
+  background: #00aaff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+
+.buscador button:hover {
+  background: #0088cc;
+}
+
+.mensaje {
+  color: #fff;
+  font-size: 16px;
+}
+
+.error {
+  color: #ff6b6b;
+}
+
+.tarjeta {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 30px;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.tarjeta h2 {
+  font-size: 1.6rem;
+  margin-bottom: 8px;
+}
+
+.tarjeta img {
+  width: 80px;
+}
+
+.temperatura {
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.descripcion {
+  font-size: 1.1rem;
+  text-transform: capitalize;
+  color: rgba(255, 255, 255, 0.8);
+  margin: 8px 0 20px;
+}
+
+.detalles {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 10px;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.85);
+}
